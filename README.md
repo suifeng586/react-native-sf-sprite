@@ -62,7 +62,7 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 |reset|||重置精灵||
 |setEnable|value|bool|false:不可触发事件||
 |setVisible|value|bool|设置隐藏||
-|setPos|{x:,y:}||dic|设置位置|
+|setPos|{x:,y:}|dic|设置位置||
 |setPosX|{x:}|dic|设置位置x||
 |setPosY|{y:}|dic|设置位置y||
 |setScale|{x:,y:}||设置放大缩小||
@@ -73,22 +73,22 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 |setAnchorPoint|{x:,y:}|dic|设置锚点(0-1)||
 |setAnchorPointX|{x:}|dic|设置锚点x||
 |setAnchorPointY|{y:}|dic|设置锚点y||
-|getVisible|||获取是否显示||
-|getSize|||获取精灵宽高||
-|getPos|||获取精灵位置||
-|getPosX|||获取位置x||
-|getPosY|||获取位置y||
-|getPosRealX|||获取实际位置x(由于锚点不一样,实际位置与显示位置不一样)||
-|getPosRealY|||获取实际位置y(由于锚点不一样,实际位置与显示位置不一样)||
-|getPosReal|||获取实际位置(由于锚点不一样,实际位置与显示位置不一样)||
-|getScale|||获取放大缩小||
-|getScaleX|||获取缩放x||
-|getScaleY|||获取缩放y||
-|getRotate|||获取角度||
-|getOpacity|||获取透明度||
-|getAnchorPoint|||获取锚点||
-|getAnchorPointX|||获取锚点x||
-|getAnchorPointY|||获取锚点y||
+|getVisible|无|无|获取是否显示||
+|getSize|无|无|获取精灵宽高||
+|getPos|无|无|获取精灵位置||
+|getPosX|无|无|获取位置x||
+|getPosY|无|无|获取位置y||
+|getPosRealX|无|无|获取实际位置x(由于锚点不一样,实际位置与显示位置不一样)||
+|getPosRealY|无|无|获取实际位置y(由于锚点不一样,实际位置与显示位置不一样)||
+|getPosReal|无|无|获取实际位置(由于锚点不一样,实际位置与显示位置不一样)||
+|getScale|无|无|获取放大缩小||
+|getScaleX|无|无|获取缩放x||
+|getScaleY|无|无|获取缩放y||
+|getRotate|无|无|获取角度||
+|getOpacity|无|无|获取透明度||
+|getAnchorPoint|无|无|获取锚点||
+|getAnchorPointX|无|无|获取锚点x||
+|getAnchorPointY|无|无|获取锚点y||
 |setHitLines|pointAry,r|array,number|设置碰撞线段,碰撞半径。设置后碰撞后不可以超过线段||
 
 # SFSprite-Animated (所有动画都需要调用run相应的函数去执行才能生效)
