@@ -54,6 +54,7 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 |height|number|no|画布高度|屏幕高度|
 
 
+
 # Methods
 # SFSprite
 |  Methods  |  Params  |  Param Types  |   description  |  Example  |
@@ -89,8 +90,10 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 |getAnchorPointX|||获取锚点x||
 |getAnchorPointY|||获取锚点y||
 |setHitLines|pointAry,r|array,number|设置碰撞线段,碰撞半径。设置后碰撞后不可以超过线段||
+
 # SFSprite-Animated (所有动画都需要调用run相应的函数去执行才能生效)
 |  Methods  |  Params  |  Param Types  |   description  |  Example  |
+|:-----|:-----|:-----|:-----|:-----|
 |moveTo|{x:x, y:y, dur, easing:easing}||移动到指定位置||
 |moveToX|{x:x, dur:dur, easing:easing}||移动到指定位置x||
 |moveToY|{y:y, dur:dur, easing:easing}||移动到指定位置y||
@@ -111,6 +114,7 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 
 # SFDrawLayer
 |  Methods  |  Params  |  Param Types  |   description  |  Example  |
+|:-----|:-----|:-----|:-----|:-----|
 |drawLine|p1, p2, color, size||画线段||
 |drawPathBegin|color, size||绘制连续线段起始,每次重新绘制都需要调用||
 |drawPath|p||绘制连续线段||
