@@ -103,26 +103,26 @@ Add the ART.xcodeproj (found in node_modules/react-native/Libraries/ART) to the 
 |scalexTo|{scaleX:scaleX, dur:dur, from:from, easing:easing}||缩放到||
 |scaleyTo|{scaleY:scaleY, dur:dur, from:from, easing:easing}||缩放到||
 |scaleTo||{scaleX:scaleX, scaleY:scaleY, dur:dur, from:from, easing:easing}|缩放到||
-|parallel|array||组合平行动画||
-|sequence|array||组合顺序动画||
-|run|ani, finish||执行单一动画||
+|parallel|aniArray|array|组合平行动画||
+|sequence|aniArray|array|组合顺序动画||
+|run|ani, finish|obj,func|执行单一动画||
 |runParallel|aniAry, finish||同时执行多个动画||
 |runSequence|aniAry, finish, loop = 1||顺序执行多个动画,可重复||
-|stop|||停止动画||
-|runRotateLoop|dur, finish, loop = 1||执行无限旋转动画||
+|stop|无|无|停止动画||
+|runRotateLoop|dur, finish, loop = 1|number,func,number|执行无限旋转动画||
 
 
 # SFDrawLayer
 |  Methods  |  Params  |  Param Types  |   description  |  Example  |
 |:-----|:-----|:-----|:-----|:-----|
-|drawLine|p1, p2, color, size||画线段||
-|drawPathBegin|color, size||绘制连续线段起始,每次重新绘制都需要调用||
-|drawPath|p||绘制连续线段||
-|getLineKB|p1,p2||获取线性函数k,b系数||
-|getPointByLineAndCircle|p1, p2, center, r||获取圆与直线的2个交点||
-|setVisible|value||设置是否显示||
-|setLineVisible|value||设置线段是否显示||
-|setPathVisible|value||设置连续线段是否显示||
+|drawLine|p1, p2, color, size|{x:,y:},{x:,y:},string,number|画线段||
+|drawPathBegin|color, size|string,number|绘制连续线段起始,每次重新绘制都需要调用||
+|drawPath|p|{x:,y:}|绘制连续线段||
+|getLineKB|p1,p2|{x:,y:},{x:,y:}|获取线性函数k,b系数||
+|getPointByLineAndCircle|p1, p2, center, r|{x:,y:},{x:,y:},{x:,y:},number|获取圆与直线的2个交点||
+|setVisible|value|bool|设置是否显示||
+|setLineVisible|value|bool|设置线段是否显示||
+|setPathVisible|value|bool|设置连续线段是否显示||
 
 
 # 例子
